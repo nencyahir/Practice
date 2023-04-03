@@ -1,0 +1,12 @@
+<h1>All Users</h1>
+
+<ul>
+  <% @user.each do |user| %>
+    <li>
+      <%= user.email%>
+    </li>
+  <% end %>
+</ul>
+<%= button_to "logout" , destroy_user_session_path,method: :delete%>
+
+
