@@ -1,0 +1,40 @@
+ <%= form_for(@restaurant) do |f| %>
+    <div>
+
+      <div>
+        <h1>Enter restaurant's Details</h1>
+        <%= f.label :name   %>
+        <%= f.text_field :restaurant_name %>
+      </div>
+
+      <div>
+        <%= f.label :add %>
+        <%= f.text_field :restaurant_address %>
+      </div>
+
+      <div>
+        <%= f.label :phone %>
+        <%= f.number_field :restaurant_phoneno %>
+      </div>
+
+
+    <div>
+    <%= f.fields_for :menus do |t| %>
+    <%= render "menu_fields", :f => t %>
+    <% end %>
+    <div class="menu-fields">
+      <br>
+      <%= link_to_add_association "Add Menu", f, :menus %> 
+    </div>
+  </div>
+      <div>
+        <br>
+        <%= f.submit %>
+      </div>
+
+    </div>
+  <% end %>
+  
+
+
+
