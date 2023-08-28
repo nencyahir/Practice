@@ -1,0 +1,21 @@
+
+.slider-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  animation: blink 2s infinite alternate;
+  font-weight: bold;
+  /* margin-bottom: 200px; */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

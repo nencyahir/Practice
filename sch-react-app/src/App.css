@@ -1,0 +1,68 @@
+
+.user-landing-page .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  /* bottom: 50px; */
+}
+
+.user-landing-page .carousel-caption h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.user-landing-page .carousel-caption p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Styling for the about section */
+.user-landing-page .about-us-container {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+.user-landing-page .about-us-container h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-landing-page .about-us-container p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.user-landing-page .about-icons-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-landing-page .about-icon {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-landing-page .about-icon svg {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-landing-page .about-icon h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-landing-page .about-icon p {
+  font-size: 14px;
+  color: #555;
+}
+
+
